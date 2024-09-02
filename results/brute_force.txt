@@ -1,0 +1,68 @@
+Processing matrix from file: matrix10.txt
+0 --(5.0)--> 1
+1 --(5.0)--> 2
+Weight of the optimal tree: 10.0
+Processing matrix from file: matrix12.txt
+1 --(6.0)--> 2
+3 --(6.0)--> 4
+0 --(6.0)--> 1
+2 --(6.0)--> 3
+Weight of the optimal tree: 24.0
+Processing matrix from file: matrix3.txt
+2 --(1.0)--> 3
+1 --(4.0)--> 2
+0 --(3.0)--> 1
+Weight of the optimal tree: 8.0
+Processing matrix from file: matrix8.txt
+0 --(20.0)--> 1
+3 --(10.0)--> 4
+2 --(20.0)--> 3
+1 --(15.0)--> 2
+Weight of the optimal tree: 65.0
+Processing matrix from file: matrix5.txt
+0 --(10.0)--> 1
+2 --(10.0)--> 4
+2 --(10.0)--> 3
+1 --(10.0)--> 2
+Weight of the optimal tree: 40.0
+Processing matrix from file: matrix6.txt
+0 --(1.0)--> 1
+1 --(9.0)--> 2
+Weight of the optimal tree: 10.0
+Processing matrix from file: matrix1.txt
+1 --(2.0)--> 2
+0 --(1.0)--> 1
+Weight of the optimal tree: 3.0
+Processing matrix from file: matrix2.txt
+1 --(2.0)--> 2
+1 --(2.0)--> 3
+0 --(2.0)--> 1
+Weight of the optimal tree: 6.0
+Processing matrix from file: matrix4.txt
+1 --(1.0)--> 3
+1 --(1.0)--> 4
+1 --(1.0)--> 2
+0 --(1.0)--> 1
+Weight of the optimal tree: 4.0
+Processing matrix from file: matrix11.txt
+1 --(4.0)--> 2
+0 --(4.0)--> 1
+2 --(4.0)--> 3
+Weight of the optimal tree: 12.0
+Processing matrix from file: matrix9.txt
+3 --(2.0)--> 4
+1 --(14.0)--> 2
+0 --(16.0)--> 1
+0 --(28.0)--> 3
+Weight of the optimal tree: 60.0
+Processing matrix from file: matrix7.txt
+0 --(2.0)--> 1
+1 --(2.0)--> 2
+Weight of the optimal tree: 4.0
+Processing matrix from file: matrix13.txt
+1 --(7.0)--> 2
+4 --(7.0)--> 5
+3 --(7.0)--> 4
+0 --(7.0)--> 1
+2 --(7.0)--> 3
+Weight of the optimal tree: 35.0
