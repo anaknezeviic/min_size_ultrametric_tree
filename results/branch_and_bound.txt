@@ -4,6 +4,7 @@ Processing matrix from file: matrix10.txt
 4 --(5.0)--> 2
 4 --(2.5)--> 3
 Weight of the optimal tree: 12.5
+Time needed: 0.0007374286651611328
 Processing matrix from file: matrix12.txt
 5 --(3.0)--> 0
 5 --(3.0)--> 1
@@ -14,17 +15,20 @@ Processing matrix from file: matrix12.txt
 8 --(9.0)--> 5
 8 --(6.0)--> 7
 Weight of the optimal tree: 36.0
+Time needed: 0.000982522964477539
 Processing matrix from file: matrix3.txt
 0 --(7.0)--> 3
 0 --(3.0)--> 1
 1 --(4.0)--> 2
 Weight of the optimal tree: 14.0
+Time needed: 0.0005598068237304688
 Processing matrix from file: matrix8.txt
 0 --(20.0)--> 1
 0 --(20.0)--> 2
 1 --(20.0)--> 3
 2 --(20.0)--> 4
 Weight of the optimal tree: 80.0
+Time needed: 0.002252817153930664
 Processing matrix from file: bbu1.txt
 9 --(1.0)--> 1
 9 --(1.0)--> 2
@@ -43,24 +47,28 @@ Processing matrix from file: bbu1.txt
 16 --(5.0)--> 13
 16 --(3.0)--> 15
 Weight of the optimal tree: 36.0
+Time needed: 0.009115219116210938
 Processing matrix from file: matrix5.txt
 0 --(10.0)--> 1
 1 --(10.0)--> 2
 2 --(10.0)--> 3
 3 --(10.0)--> 4
 Weight of the optimal tree: 40.0
+Time needed: 0.0025947093963623047
 Processing matrix from file: matrix6.txt
 3 --(0.5)--> 0
 3 --(0.5)--> 1
 4 --(5.0)--> 2
 4 --(4.5)--> 3
 Weight of the optimal tree: 10.5
+Time needed: 0.00035190582275390625
 Processing matrix from file: matrix1.txt
 3 --(0.5)--> 0
 3 --(0.5)--> 1
 4 --(1.5)--> 2
 4 --(1.0)--> 3
 Weight of the optimal tree: 3.5
+Time needed: 0.0002779960632324219
 Processing matrix from file: bbu3.txt
 9 --(5.0)--> 0
 9 --(5.0)--> 1
@@ -79,17 +87,20 @@ Processing matrix from file: bbu3.txt
 16 --(25.0)--> 14
 16 --(20.0)--> 15
 Weight of the optimal tree: 145.0
+Time needed: 1.859123945236206
 Processing matrix from file: matrix2.txt
 0 --(2.0)--> 1
 1 --(2.0)--> 2
 2 --(2.0)--> 3
 Weight of the optimal tree: 6.0
+Time needed: 0.0009386539459228516
 Processing matrix from file: matrix4.txt
 0 --(1.0)--> 1
 1 --(1.0)--> 2
 2 --(1.0)--> 3
 3 --(1.0)--> 4
 Weight of the optimal tree: 4.0
+Time needed: 0.0028905868530273438
 Processing matrix from file: matrix11.txt
 4 --(2.0)--> 0
 4 --(2.0)--> 1
@@ -98,6 +109,7 @@ Processing matrix from file: matrix11.txt
 6 --(4.0)--> 4
 6 --(4.0)--> 5
 Weight of the optimal tree: 16.0
+Time needed: 0.0005345344543457031
 Processing matrix from file: bbu2.txt
 9 --(0.5)--> 4
 9 --(0.5)--> 5
@@ -116,16 +128,19 @@ Processing matrix from file: bbu2.txt
 16 --(11.0)--> 11
 16 --(5.0)--> 15
 Weight of the optimal tree: 41.5
+Time needed: 0.04310941696166992
 Processing matrix from file: matrix9.txt
 0 --(28.0)--> 3
 0 --(16.0)--> 1
 1 --(14.0)--> 2
 3 --(2.0)--> 4
 Weight of the optimal tree: 60.0
+Time needed: 0.0030736923217773438
 Processing matrix from file: matrix7.txt
 0 --(2.0)--> 1
 1 --(2.0)--> 2
 Weight of the optimal tree: 4.0
+Time needed: 0.0005204677581787109
 Processing matrix from file: bbu4.txt
 12 --(0.5)--> 0
 12 --(0.5)--> 6
@@ -150,6 +165,7 @@ Processing matrix from file: bbu4.txt
 22 --(1.5)--> 20
 22 --(0.5)--> 21
 Weight of the optimal tree: 62.5
+Time needed: 2.938814401626587
 Processing matrix from file: matrix13.txt
 6 --(3.5)--> 0
 6 --(3.5)--> 1
@@ -162,3 +178,4 @@ Processing matrix from file: matrix13.txt
 10 --(14.0)--> 8
 10 --(7.0)--> 9
 Weight of the optimal tree: 56.0
+Time needed: 0.004118919372558594
