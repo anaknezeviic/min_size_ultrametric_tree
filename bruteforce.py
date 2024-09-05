@@ -1,6 +1,8 @@
 import numpy as np
 from itertools import product
 import os
+import time
+
 
 class Tree:
     def __init__(self):
@@ -160,6 +162,13 @@ def brute_force_for_minimum_ultrametric_tree(M):
 
     return minimum_ultrametric_tree, min_weight
 
+def measure_execution_time(func, *args, **kwargs):
+    start_time = time.time()
+    result = func(*args, **kwargs)
+    end_time = time.time()
+    execution_time = end_time - start_time
+    return result, execution_time
+
 def load_distance_matrix(file_path):
     return np.loadtxt(file_path, delimiter=' ')
 
@@ -176,10 +185,14 @@ distance_matrices = load_all_distance_matrices(directory_path)
 
 for file_name, distance_matrix in distance_matrices.items():
     print(f"Processing matrix from file: {file_name}")
-    optimal_tree, min_weight = brute_force_for_minimum_ultrametric_tree(distance_matrix)
+    (optimal_tree, min_weight), execution_time = measure_execution_time(brute_force_for_minimum_ultrametric_tree, distance_matrix)
+    
     if optimal_tree != None:
         print(optimal_tree)
         print("Weight of the optimal tree:", min_weight)
     else:
         print("No ultrametric tree found.")
+        
+    print(f"Execution time: {execution_time:.4f} seconds")
+
 

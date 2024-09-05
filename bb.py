@@ -1,6 +1,7 @@
 import numpy as np
 import os
 from functools import lru_cache
+import time
 
 class Tree:
     def __init__(self):
@@ -197,6 +198,12 @@ def insert_leaf(tree, parent, new_leaf, weight):
     
     return new_tree
 
+def measure_execution_time(func, *args, **kwargs):
+    start_time = time.time()
+    result = func(*args, **kwargs)
+    end_time = time.time()
+    execution_time = end_time - start_time
+    return result, execution_time
 
 def load_distance_matrix(file_path):
     return np.loadtxt(file_path, delimiter=' ')
@@ -214,6 +221,7 @@ distance_matrices = load_all_distance_matrices(directory_path)
 
 for file_name, distance_matrix in distance_matrices.items():
     print(f"Processing matrix from file: {file_name}")
-    optimal_tree, min_weight = branch_and_bound(distance_matrix)
-    print(optimal_tree)
-    print(f"Weight of the optimal tree: {min_weight}")
+    (optimal_tree, time_needed) = measure_execution_time(branch_and_bound, distance_matrix)
+    print(optimal_tree[0])
+    print(f"Weight of the optimal tree: {optimal_tree[1]}")
+    print(f"Time needed: {time_needed}")

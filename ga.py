@@ -1,6 +1,7 @@
 import random
 import numpy as np
 import os
+import time 
 
 class Tree:
     def __init__(self, n):
@@ -189,13 +190,21 @@ def genetic_algorithm(matrix, population_size, num_generations, tournament_size 
 
 
     return best_individual
+    
+def measure_execution_time(func, *args, **kwargs):
+    start_time = time.time()
+    result = func(*args, **kwargs)
+    end_time = time.time()
+    execution_time = end_time - start_time
+    return result, execution_time
 
 directory_path = 'tests/'
 distance_matrices = load_all_distance_matrices(directory_path)
 
 for file_name, distance_matrix in distance_matrices.items():
     print(f"Processing matrix from file: {file_name}")
-    best_individual = genetic_algorithm(
+    best_individual, execution_time = measure_execution_time(
+        genetic_algorithm,
         matrix=distance_matrix,
         population_size=100,
         num_generations=15,
@@ -209,3 +218,5 @@ for file_name, distance_matrix in distance_matrices.items():
         print(f"Weight of the optimal tree: {abs(best_individual.fitness)}")
     else:
         print("No ultrametric tree found.")
+        
+    print(f"Execution time: {execution_time:.4f} seconds")
